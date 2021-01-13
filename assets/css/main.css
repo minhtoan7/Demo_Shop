@@ -940,6 +940,10 @@
 }
 
 /* App Container */
+.app::-webkit-scrollbar {
+  display: none;
+}
+
 .app__container {
   background-color: #f5f5f5;
 }
